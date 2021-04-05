@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header_container">
+          <a href="" class="header_logo"> </a>
+          <div class="header_menu menu">
+            <div class="menu_icon">
+              <span></span>
+            </div>
+
+            <nav class="menu_body">
+              <ul class="menu_list">
+                <li><a data-goto=".page_section_1" href="#" class="menu_link"> Наши Товары </a></li>
+                <li><a data-goto=".page_section_3" href="#" class="menu_link"> Наш Адрес </a></li>         
+                <li><a data-goto=".page_section_4" href="#" class="menu_link"> Контакты </a></li>              
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Слайдер -->
+
+      <main class="page">    
+        <section class="page_section page_section_1">
+          <h1 class="page_title">Наши товары:</h1>
+          <div class="page_text">
+                  
+            <div class="gallery swiper-container">
+              <div class="gallery_list swiper-wrapper">
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/1.jpg" alt="1" />
+                  <div class="text">
+                    <h3 class="title">Жаренная курица</h3>
+                    <p>
+                      Очень нежное мясо, которое просто тает во рту. Поджаристая корочка приятно хрустит. 
+                    </p>
+                  </div>
+                </div>
+
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/2.jpg" alt="2" />
+                  <div class="text">
+                    <h3 class="title">Куриные крылышки</h3>
+                    <p>
+                      Жареные на гриле куриные крылышки
+                    </p>
+                  </div>
+                </div>
+
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/4.jpg" alt="4" />
+                  <div class="text">
+                    <h3 class="title">Домашние пельмени</h3>
+                    <p>
+                      Свино-говяжьи пельмени из настоящего мясного фарша. Без примесей и добавок
+                    </p>                    
+                  </div>
+                </div>
+
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/5.jpg" alt="5" />
+                  <div class="text">
+                    <h3 class="title">Сырые куриные купаты</h3>
+                    <p>
+                      Жарить всего 20 минут. Изготовлены из куриного фарша
+                    </p>                    
+                  </div>
+                </div>
+
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/6.jpg" alt="6" />
+                  <div class="text">
+                    <h3 class="title">Жаренные купаты</h3>
+                    <p>
+                      Готовые жаренные купаты. Делаем сами из чистого куриного фарша!
+                    </p>                    
+                  </div>
+                </div>
+
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/7.jpg" alt="7" />
+                  <div class="text">
+                    <h3 class="title">Печённый картофель</h3>
+                    <p>
+                      Печенный на гриле картофель. Отличный гарнир к любому блюду
+                    </p>                    
+                  </div>
+                </div>
+
+                <div class="gallery_item swiper-slide">
+                  <img src="./assets/8.jpg" alt="8" />
+                  <div class="text">
+                    <h3 class="title">Шашлык из свинины</h3>
+                    <p>
+                      Большая порция шашлыка из мягкой и сочной свинины не задержится надолго на Вашем столе!
+                    </p>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         </div>
+        </section>
+        <!--  -->    
+
+        <!--  -->
+        <!-- Карта -->
+        <section class="page_section page_section_3">
+          <h2 class="page_sub-title">Наш Адрес:</h2>
+          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.1940105837584!2d39.71144341586537!3d43.62332077912232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb7f21e05a31%3A0x2fda899f591eabd4!2z0YPQuy4g0KHQsNC90LDRgtC-0YDQvdCw0Y8sIDI1LCDQodC-0YfQuCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1NDAwOA!5e0!3m2!1sru!2sru!4v1616560796352!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="page_section page_section_4">
+          <h2 class="page_sub-title"> Контакты: </h2>
+          <div class="page_text">
+           <h1>Звони и Заказывай: +7(967)6477785 </h1>
+          </div>
+        </section>
+      </main>
+    </div>           
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
