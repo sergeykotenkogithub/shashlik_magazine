@@ -424,6 +424,39 @@ body._touch .menu_list > li.active .menu_arrow {
 /* ...................................................... */
 
 
+.header-h1 {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+.header-h1 h2 {
+  display: inline-block;
+  /* background: #0097a7; */
+  color: #fff;
+  margin-bottom: 0;
+  padding: 1.5rem 2rem 1.625rem 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 59px;
+  background: linear-gradient(to left, #B22222, #333333);
+  margin-bottom: 25px;
+}
 
 
+.header-h2 {
+  text-align: center;
+  margin-bottom: .5rem;
+  display: inline-block;
+  /* background: #0097a7; */
+  color: #fff;
+  margin-bottom: 0;
+  padding: 1.5rem 2rem 1.625rem 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 59px;
+  background: linear-gradient(to left, #B22222, #333333);
+  margin-bottom: 25px;
+}
 
+.page_section_4 {
+  text-align: center;
+}
