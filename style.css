@@ -460,3 +460,8 @@ body._touch .menu_list > li.active .menu_arrow {
 .page_section_4 {
   text-align: center;
 }
+
+.phone {
+  font-size: 19px;
+  color: #000;
+}
