@@ -16,9 +16,9 @@ if (animate.length > 0) {
             }
 
             if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
-                animItem.classList.add('_active');
+                animItem.classList.add('_actives');
             } else {
-                animItem.classList.remove('_active');
+                animItem.classList.remove('_actives');
             }
 
         }        
@@ -33,5 +33,5 @@ if (animate.length > 0) {
 
     setTimeout(() => {
         animOnScroll();
-    }, 300)   
+    }, 150)   
 }
