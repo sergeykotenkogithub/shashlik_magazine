@@ -196,18 +196,17 @@ body._touch .menu_list > li.active .menu_arrow {
 /* ................................ */
 @media (min-width: 767px) {
   .menu_link:hover {
-    text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575,
-      4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161,
-      8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d,
-      18px 18px 30px rgba(0, 0, 0, 0.4), 18px 18px 10px rgba(0, 0, 0, 0.4);
+    color:rgba(0, 0, 0, 0.9)
   }
+
   .menu_list {
     display: flex;
     align-items: center;
   }
   .menu_list > li {
-    padding: 10px 0;
-  }
+    padding: 10px 0;  }
+
+
   .menu_sub-list {
     transform: translate(0px, 10%);
     opacity: 0;
@@ -266,10 +265,10 @@ body._touch .menu_list > li.active .menu_arrow {
   }
   .menu_body {
     position: fixed;
-    top: 8%;
+    top: 50%;
     left: -120%;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 100px 30px 30px 0px;
     transition: left 0.3s ease 0s;
@@ -464,4 +463,41 @@ body._touch .menu_list > li.active .menu_arrow {
 .phone {
   font-size: 19px;
   color: #000;
+}
+
+/* Анимация */
+
+.header {
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+  
+}
+
+.header._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.page_sub-title  {
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+
+.page_sub-title._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.page_text--animate {
+  transform: translate(120%, 0px);
+  opacity: 0;
+  transition: all 0.8s ease 0.4s;
+}
+
+.page_text--animate._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
